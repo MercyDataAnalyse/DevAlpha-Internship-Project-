@@ -175,3 +175,8 @@ The DevAlpha Data Analysis Project demonstrates how structured exploratory data 
 
 The findings emphasize the importance of segmentation, variable interaction, and structured visualization in understanding complex datasets. This project serves as a strong foundation for advanced analytics, dashboard development, and predictive modeling in future work.[IMOLE DASHBOARD.xlsx.xlsx](https://github.com/user-attachments/files/29061718/IMOLE.DASHBOARD.xlsx.xlsx)
 
+
+
+
+
+https://drive.google.com/drive/folders/1sP7s9IZRpFCP_Wjtk0USzIxQZYS3HCHw?usp=drive_link
