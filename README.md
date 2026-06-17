@@ -109,71 +109,66 @@ The following analytical KPIs were derived from the dataset:
 
 ## 📊 Dashboard Development
 
-### 📌 Dashboard 1: Analytical Overview Dashboard
+### Analytical Overview Dashboard
 
 This dashboard provides a high-level summary of dataset structure and key patterns.
 
 **Key Metrics:**
 
-* Total Records
-* Average values of key indicators
-* Distribution of outcome categories
-* Group-level comparisons
+•	Total Patients 
+•	Diabetic Patients 
+•	Non-Diabetic Patients 
+•	Diabetes Rate % 
+•	Avg Glucose 
+•	Avg BMI 
+•	 Avg Age
 
 **Visualizations:**
 
-* Distribution charts for key variables
-* Outcome comparison analysis
-* Correlation-based pivot charts
-* KPI summary cards
+•	Diabetes Status (Pie Chart) 
+•	Diabetes by Age Group 
+•	Glucose Distribution 
+•	BMI vs Outcome
+•	KPI summary cards.
+ 
 
 **Business Purpose:**
 This dashboard enables quick understanding of dataset structure and highlights key patterns for further exploration.
-
-
-
-* Group-based bar charts
-* Comparative pivot analysis
-* Trend-style breakdowns across segments
-* Multi-variable relationship views
-
-**Business Purpose:**
 This dashboard helps identify patterns across different segments and supports deeper interpretation of relationships within the dataset.
 
-## 🔍 Key Findings
 
 ### 📌 Data Insights
+•	Patients diagnosed with diabetes had significantly higher glucose levels, making glucose one of the strongest predictors of diabetes risk.
+•	Higher BMI levels were observed among diabetic patients, suggesting a strong relationship between obesity and diabetes risk.
+•	34.9% of patients were diabetic.
+•	 Glucose emerged as the strongest diabetes risk factor
+•	Higher BMI was associated with diabetes
+•	Insulin levels were significantly higher among diabetic patients
+•	Younger adults formed the largest patient segment
+•	 Data visualization helps transform healthcare data into actionable insights
 
-* Certain variables show strong influence on outcome distribution
-* Data segmentation reveals clear differences between groups
-* Patterns suggest multi-factor relationships rather than single-variable impact
-* Distribution imbalance exists across key outcome categories
+Analytical Insights
+* Diabetes is strongly driven by Glucose, BMI, and Age.
+* Diabetic patients consistently show significantly higher glucose levels than non-diabetics.
+* BMI shows a clear positive relationship with diabetes risk (obesity = higher risk).
+* Age increases risk, especially from 35+ years.
+* Other variables (Blood Pressure, Skin Thickness, Pregnancies) show weak to moderate influence.
+* The highest-risk profile is: High Glucose + High BMI + Older Age.
 
-### 📌 Analytical Insights
+  
+ Visualization Insights
+* Glucose vs Outcome: Clear separation between diabetic and non-diabetic groups.
+* BMI distribution: Diabetics cluster in higher BMI ranges.
+* Age bands: Diabetes prevalence increases steadily with age.
+* Correlation heatmap: Glucose and BMI are the strongest predictors of Outcome.
+* Scatter (Glucose vs BMI): Distinct high-risk cluster emerges for diabetic patients.
+*Pregnancies vs Outcome: Weak upward trend in risk with higher pregnancies.
 
-* Higher values in selected indicators tend to align with outcome variation
-* Group-based analysis provides clearer insight than raw averages
-* Variable interactions are more meaningful than individual metrics
-
----
-
-### 📌 Visualization Insights
-
-* Pivot charts improve clarity of complex relationships
-* Grouped analysis enhances interpretability
-* KPI summaries allow quick understanding of dataset behavior
-
-## 💡 Business Recommendations
-
-Based on the analysis, the following recommendations are made:
-
-* Focus on multi-variable analysis rather than single-factor interpretation
-* Use segmentation for deeper insight extraction
-* Apply normalization techniques for improved comparability
-* Expand analysis using Power BI for interactivity
-* Incorporate predictive modeling for advanced insights
-* Improve dashboard storytelling with clearer KPI definitions
-* 
+Business Recommendations
+* Implement early screening for high glucose, high BMI, and 35+ age groups.
+* Develop a risk scoring system for early diabetes detection.
+* Focus preventive programs on weight management and lifestyle intervention.
+ 
 ## 📌 Conclusion
 
 The DevAlpha Data Analysis Project demonstrates how structured exploratory data analysis can transform raw datasets into meaningful insights. Through the use of Excel-based analytics, pivot tables, and visualization techniques, the project successfully highlights patterns, relationships, and trends within the data.
